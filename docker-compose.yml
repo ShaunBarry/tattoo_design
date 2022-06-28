@@ -9,5 +9,9 @@ services:
         source: ./process.py
         target: /project/process.py
         read_only: true
+      - type: bind
+        source: ./figures
+        target: /project/figures
+        read_only: false
     restart: unless-stopped
     entrypoint: [ "tail", "-f", "/dev/null" ]

@@ -35,7 +35,8 @@ RUN apt-get upgrade -y && \
     apt-get install --no-install-recommends -y \
     libssl-dev \
     libcurl4-openssl-dev \
-    curl
+    curl \
+    libcairo2
 
 RUN useradd -m appuser
 USER appuser
@@ -47,7 +48,8 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 WORKDIR /project
 
-RUN python3 -m pip install drawSvg
 
 COPY --from=build-stage --chown=appuser $VIRTUAL_ENV $VIRTUAL_ENV
 COPY --chown=appuser [".", "/project"]
+
+RUN pip install drawSvg

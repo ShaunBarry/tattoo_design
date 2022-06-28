@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1600" height="1600" viewBox="-125.0 -125.0 250 250">
+<defs>
+<marker markerWidth="8.0" markerHeight="8.0" viewBox="-0.1 -0.5 1.0 1.0" orient="auto" id="d0">
+<path d="M-0.1,0.5 L-0.1,-0.5 L0.9,0 Z" fill="black" />
+</marker>
+</defs>
+<rect x="-125" y="-125" width="250" height="250" fill="white" />
+<circle cx="0" cy="0" r="80" fill="none" stroke-width="2.0" stroke="black" />
+<path d="M0,85 L0,-85" stroke="black" stroke-width="1.0" fill="none" marker-end="none" />
+<path d="M-85,0 L85,0" stroke="black" stroke-width="1.0" fill="none" marker-end="none" />
+<path d="M0,0 L36.00000000000001,-62.35382907247958" stroke="black" stroke-width="1.2" fill="none" marker-end="url(#d0)" />
+<path d="M40.00000000000001,0 L40.00000000000001,-69.28203230275508" stroke="black" stroke-width="1.0" fill="none" stroke-dasharray="5 5" />
+<path d="M0,-69.28203230275508 L40.00000000000001,-69.28203230275508" stroke="black" stroke-width="1.0" fill="none" stroke-dasharray="5 5" />
+<path d="M10.0,-0.0 A10,10,0,0,0,5.000000000000001,-8.660254037844386" stroke="black" stroke-width="1.0" fill="none" />
+<rect x="32.75000000000001" y="-7.25" width="7.25" height="7.25" stroke="black" stroke-width="1.0" fill="none" />
+<path d="M-2,-69.28203230275508 L-4,-69.28203230275508 L-4,0" stroke="black" stroke-width="0.3" fill="none" />
+<path d="M40.00000000000001,2 L40.00000000000001,4 L0,4" stroke="black" stroke-width="0.3" fill="none" />
+</svg>
