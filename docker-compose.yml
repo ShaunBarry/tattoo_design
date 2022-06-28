@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: app
+    build: .
+    volumes:
+      - type: bind
+        source: ./process.py
+        target: /project/process.py
+        read_only: true
+    restart: unless-stopped
+    entrypoint: [ "tail", "-f", "/dev/null" ]
